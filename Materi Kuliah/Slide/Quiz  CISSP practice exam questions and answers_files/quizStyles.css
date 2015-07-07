@@ -1,0 +1,183 @@
+br.clear {
+	height: 1px;
+	font-size: 1px;
+}
+
+.quizScore {
+	background-color: #990000;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	padding: 4px 7px;
+	margin-bottom: 15px;
+}
+
+.quizScoreScaleLeft {
+	font-size: 11px;
+	color: #333;
+	float: left;
+	text-align: right;
+	margin: 10px 8px 10px 0;
+}
+
+.quizScoreScaleRight {
+	font-size: 11px;
+	color: #333;
+	text-align: left;
+	margin: 10px 10px 10px 0;
+}
+
+.quizQuestionContainer {
+	margin: 0; 
+	padding-bottom: 20px;
+}
+
+.quizQuestionContainer img {
+	float: right;
+	margin: 0 0 10px 8px;
+}
+
+.quizQuestionContainer h3 {
+	background: #e1dfdf url(http://media.techtarget.com/quiz/images/icon_question_mark.gif) no-repeat 2px 0;
+	display: block;
+	padding: 2px 4px 0 25px;
+	margin: 0;
+	height: 24px;
+	font-size: 13px;
+	font-weight: bold;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+}
+
+.quizQuestionContainer h3.questionRight {
+	background: #e1dfdf url(http://media.techtarget.com/quiz/images/icon_question_right.gif) no-repeat 2px 0;
+}
+
+.quizQuestionContainer h3.questionWrong {
+	background: #e1dfdf url(http://media.techtarget.com/quiz/images/icon_question_wrong.gif) no-repeat 2px 0;
+}
+
+.quizQuestionContainer small {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.quizQuestionContent {
+	display: block; 
+	background: #fff; 
+	border: 0 solid #999999; 
+	border-width: 0 1px;
+	margin: 0;
+	padding: 5px 5px 8px 5px;
+}
+
+.quizQuestionContent .answerRight {
+	color: #339933;
+}
+
+.quizQuestionContent .answerWrong {
+	color: #dd0000;
+}
+
+p.moreInformation {
+	color: #666666;
+	margin: 7px 0 0 0;
+}
+
+p.moreInformation small {
+	font-weight: normal;
+}
+
+.quizQuestionContent ul {
+	margin: 10px 0 0 0; 
+	padding: 0;
+}
+
+.quizQuestionContent li {
+	list-style: none;
+}
+
+.quizQuestionAnswer {
+	background-color: #e1dfdf;
+	padding: 5px;
+	margin: 0;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-top: 1px solid #999999;
+}
+
+.quizQuestionTop, .quizQuestionBottom {
+	display:  block;
+	background:  transparent;
+	font-size:  1px;
+}
+
+.qq1, .qq2, .qq3, .qq4 {
+	display: block;
+	overflow: hidden;
+}
+
+.qq1, .qq2, .qq3 {
+	height: 1px;
+}
+
+.qq2, .qq3, .qq4 {
+	background: #e1dfdf;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+}
+
+.qq1 {
+	margin: 0 5px;
+	background: #999999;
+}
+
+.qq2 {
+	margin: 0 3px;
+	border-width: 0 2px;
+}
+
+.qq3 {
+	margin: 0 2px;
+}
+
+.qq4 {
+	height: 2px; 
+	margin: 0 1px;
+}
+
+.qq5, .qq6, .qq7, .qq8 {
+	display: block;
+	overflow: hidden;
+}
+
+.qq5, .qq6, .qq7 {
+	height: 1px;
+}
+
+.qq6, .qq7, .qq8 {
+	background: #fff;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+}
+
+.qq5 {
+	margin: 0 5px;
+	background: #999999;
+}
+
+.qq6 {
+	margin: 0 3px;
+	border-width: 0 2px;
+}
+
+.qq7 {
+	margin: 0 2px;
+}
+
+.qq8 {
+	height: 2px; 
+	margin: 0 1px;
+}
